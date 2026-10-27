@@ -1,0 +1,114 @@
+#page title
+page_title                                : "Escape Room: Alcatraz"
+
+# App Info
+ios_app_id                                : 6827712466
+
+appstore_link                             : https://apps.apple.com/app/id6827712466
+playstore_link                            :
+presskit_download_link                    :
+
+app_icon                                  : assets/appicon.png
+app_name                                  : Alcatraz
+app_price                                 : Free
+app_description                           : "An escape game on Alcatraz, 1962. Three days to gather everything your escape plan needs, in the places an inmate is allowed to go. One night to break out, from your cell to the sea."
+
+enable_smart_app_banner                   : true
+
+
+
+# Information About Yourself
+your_name                                 : SixtyEdge
+your_link                                 : 
+your_city                                 : Paris
+email_address                             : sixtyedge@gmail.com
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
+youtube_username                          :
+
+
+
+# Feature List
+features                                  :
+
+  - title                                 : Eight Handcrafted Scenes
+    description                           : The cell, the kitchen, the library, the laundry, the warden's office, the utility corridor, the old fort's dungeons and the dock.
+    fontawesome_icon_name                 : building
+
+  - title                                 : Three Days, Then One Night
+    description                           : Gather a tool, the plans and a uniform by day. Then break out in a single night, before the guards come round.
+    fontawesome_icon_name                 : moon
+
+  - title                                 : Puzzles With Rules to Figure Out
+    description                           : A dumbwaiter to rewire, a relief map to piece together, a laundry chute, a clock's movement, a pontoon in the dark.
+    fontawesome_icon_name                 : puzzle-piece
+
+  - title                                 : Characters Who Guide You
+    description                           : The Old Man next door, speaking through the wall, the guards and the warden, each with a part to play.
+    fontawesome_icon_name                 : comments
+
+  - title                                 : One Hint at a Time
+    description                           : A hint matched to where you are in the scene. Never the answer.
+    fontawesome_icon_name                 : lightbulb
+
+  - title                                 : First Two Scenes Free
+    description                           : Unlock the six others with a single purchase. English and French, no account, no ads.
+    fontawesome_icon_name                 : unlock
+
+
+
+# Theme Settings
+topbar_color                              : "#121212"
+topbar_transparency                       : 0.95
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#121212"
+cover_overlay_transparency                : 0.85
+
+device_color                              : black
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#B8892E"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#F6D892"
+app_description_color                     : "#e2e8f0"
+
+feature_title_color                       : "#121212"
+feature_text_color                        : "#64748b"
+
+feature_icons_foreground_color            : "#B8892E"
+feature_icons_background_color            : "#F6EBD0"
+
+social_icons_foreground_color             : "#64748b"
+social_icons_background_color             : "#f1f5f9"
+
+footer_text_color                         : "#94a3b8"
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
